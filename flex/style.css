@@ -1,0 +1,50 @@
+.flex-colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    width: 100px;
+    padding: 20px;
+    background-color: aqua;
+   border: 2px solid black;
+   border-radius: 10px;
+   text-align: center;
+   margin: 2px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-revers{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

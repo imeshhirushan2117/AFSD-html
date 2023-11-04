@@ -1,0 +1,24 @@
+
+
+.item{
+    /* height: 80px; */
+    padding: 30px;
+    background-color: rgb(12, 163, 205);
+    margin: 5px;
+    text-align: center;
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: auto auto auto auto ;
+}
+
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+
+}
