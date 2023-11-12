@@ -1,0 +1,61 @@
+/* <!-- External Style --> */
+.title2{
+    background-color: chartreuse;
+    color: red ;
+    padding: 10px;
+}
+
+
+/* <!-- type selecter --> */
+
+h2{
+    color: aqua;
+    border: 2px solid red;
+}
+
+
+/* <!-- class selecter --> */
+
+.class{
+    background-color: rgb(225, 37, 112);
+    padding: 5px;
+    color: aliceblue;
+}
+
+
+/* <!-- id selecter --> */
+
+#acpt-2{
+    color: brown;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+/* <!-- child selecter --> */
+
+div  p {
+    background-color: yellow;
+    margin: 10px;
+}
+
+/*   <!-- univasl selecter --> */
+
+*{
+    margin: 0;
+   
+}
+
+
+/* <!-- box module --> */
+
+.box-contaner{
+    background-color: rgb(7, 131, 255);
+    width: 600px;
+}
+
+.box-module{
+    background-color: rgb(101, 255, 5);
+    margin: 40px;
+    border: 30px solid black;
+    padding: 40px;
+}

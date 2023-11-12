@@ -1,0 +1,24 @@
+body{
+    background-color: darkgreen;
+}
+
+.button{
+    background-color: chocolate;
+}
+
+@media only screen and (max-width:200px){
+
+    body{
+        background-color: darkblue;
+    }
+
+    .button{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) and (min-width:320px){
+    body{
+        background-color: aqua;
+    }
+}
