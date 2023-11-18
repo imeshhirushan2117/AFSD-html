@@ -324,8 +324,16 @@ console.log(fruits);
 console.log("===========Event Hadaling===========");
 
 //onclick
-
 function clickMe(){
-  // alert("on click alert");
-  console.log("on click");
+  //  alert("on click alert");
+  // console.log("on click");
+  document.write("Hiru Bro");
 }
+
+//onChange
+
+const changeText = () => {
+  const text = document.getElementById("changeText").value;
+  console.log(text);
+}
+
