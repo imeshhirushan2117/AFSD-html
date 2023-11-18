@@ -371,8 +371,31 @@ const keyup = () => {
 }
 
 
+
 //<!-- key press -->
 const keyPress= () => {
   console.log("key Press down------>")
   console.log("key Press up------>")
+}
+
+// <!-- key press example-->
+const keyPressExample = () => {
+  const text = document.getElementById("pressTemp").value;
+ console.log(text)
+}
+
+
+// <!-- key down example-->
+const keyDownExample = () => {
+  const text = document.getElementById("downTemp").value;
+ console.log(text)
+}
+
+// <!-- key up example-->
+const keyUpExample = () => {
+  const text = document.getElementById("upTemp").value;
+ document.getElementById('display').innerText = text;
+
+ console.log(text)
+ 
 }

@@ -56,7 +56,8 @@
     <!--key press onkeydown onkeyup  event -->
     <div class="mb-3 w-50">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input onkeydown="keydown()" onkeyup="keyup()" type="email" class="form-control" id="keyPress" aria-describedby="emailHelp">
+        <input onkeydown="keydown()" onkeyup="keyup()" type="email" class="form-control" id="keyPress"
+            aria-describedby="emailHelp">
     </div>
 
     <br>
@@ -64,10 +65,42 @@
     <!-- key press -->
     <div class="mb-3 w-50">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input onkeypress="keyPress()" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input onkeypress="keyPress()" type="email" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp">
     </div>
 
+
+<h2>Form</h2> 
+<!-- <h4>Meke console Log tika balanna Akuren akura input krna gaman</h4> -->
+
+    <!-- key press example-->
+    <div class="mb-3 w-50">
+        <input onkeypress="keyPressExample()" type="email" class="form-control" id="pressTemp" aria-describedby="emailHelp" placeholder="KeyPress Example"> 
+    </div>
+
+ <!-- key down example-->
+ <div class="mb-3 w-50">
+    <input onkeydown="keyDownExample()" type="email" class="form-control" id="downTemp" aria-describedby="emailHelp" placeholder="KeyDown Example">
+</div>
+
+ <!-- key up example-->
+ <div class="mb-3 w-50">
+    <input onkeyup="keyUpExample()" type="email" class="form-control" id="upTemp" aria-describedby="emailHelp" placeholder="KeyUp Example">
+</div>
+
+<br>
+    <h1 id="display"></h1>
+
+
+
+
+
+
+
+
+
     <br><br>
+
     <hr>
 
     <!-- Internal js -->
