@@ -19,10 +19,28 @@
     <!-- onChange-->
     <div class="form-group w-50">
         <label for="exampleInputEmail1">Email address</label>
-        <input onchange="changeText()" type="email" class="form-control" id="changeText" aria-describedby="emailHelp" placeholder="Enter email">
+      <p>
+        <input onchange="changeText()" type="email" class=" form-control" id="changeText" aria-describedby="emailHelp" placeholder="Enter email">
+      </p>
+        
+
+      <p>
+        <input onchange="getchangeText()" type="email" class="form-control" id="getChangeText" aria-describedby="emailHelp" placeholder="Get Value">
+      </p>
        
     </div>
 
+    <!-- mouse over -->
+    <div>
+        <div id="mouse" onmouseout="mouseOut()" onmouseover="mouseOver()" style="background-color: red; width: 100px; height: 100px;">
+            
+        </div>
+    </div>
+<br><br><br>
+    <!-- mouse img -->
+    <div>
+        <img id="img"  onmouseout="imgOut()" onmouseover="imgOver()" src="assets/chat-c-1.png" alt="" style="width: 200px; cursor: pointer;">
+    </div>
 
     <br><br>
     <hr>

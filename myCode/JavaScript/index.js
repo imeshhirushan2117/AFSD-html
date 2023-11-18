@@ -331,9 +331,31 @@ function clickMe(){
 }
 
 //onChange
-
 const changeText = () => {
   const text = document.getElementById("changeText").value;
   console.log(text);
+
+   document.getElementById("getChangeText").value = text;
 }
 
+// <!-- mouse over -->
+const mouseOver = () => {
+  document.getElementById("mouse").style.backgroundColor= 'green'
+  document.getElementById("mouse").style.width= '200px'
+
+}
+
+const mouseOut = () => {
+  document.getElementById("mouse").style.backgroundColor='red'
+  document.getElementById("mouse").style.width='100px'
+}
+
+// img over
+
+const imgOver = () => {
+  document.getElementById("img").src = 'assets/chat-c-2.png'
+}
+
+const imgOut= () => {
+  document.getElementById("img").src = 'assets/chat-c-1.png'
+}
