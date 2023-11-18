@@ -359,3 +359,20 @@ const imgOver = () => {
 const imgOut= () => {
   document.getElementById("img").src = 'assets/chat-c-1.png'
 }
+
+//    <!--key press onkeydown onkeyup  event -->
+
+const keydown = () => {
+  console.log("key Down------>")
+}
+
+const keyup = () => {
+  console.log("key Up------>")
+}
+
+
+//<!-- key press -->
+const keyPress= () => {
+  console.log("key Press down------>")
+  console.log("key Press up------>")
+}
