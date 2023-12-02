@@ -161,20 +161,18 @@ document.getElementById('sum').innerText = num1+ num2
 }
 
 //home task 11
+var ranAarr = new Array (10)
 
-
-var ranAarr = new Array (6)
 const randamArray = () => {
 for (var i = 0 ; i < ranAarr.length ; i ++){
   ranAarr[i] = Math.floor(Math.random() * 100);
 
 }
 document.getElementById('randArryPrint').innerText = ranAarr
-
 }
 
 const calculationArray = () => {
- var  input =  document.getElementById('inputCal').value;
+var  input =  document.getElementById('inputCal').value;
 var divide = []
    for(var i = 0 ; i < ranAarr.length ; i++){
    
